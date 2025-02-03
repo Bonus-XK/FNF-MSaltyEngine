@@ -1,0 +1,63 @@
+{
+	"dialogue_pos": "right",
+	"position": [
+		40,
+		40
+	],
+	"scale": 1.25,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_offsets": [
+				0,
+				-2
+			],
+			"loop_name": "salty_dialogue idle",
+			"idle_name": "salty_dialogue idle0000"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "excited",
+			"idle_offsets": [
+				0,
+				-3
+			],
+			"loop_name": "salty_dialogue shock",
+			"idle_name": "salty_dialogue shock static"
+		},
+		{
+			"loop_name": "salty_dialogue crazy",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "salty_dialogue crazy0000",
+			"anim": "crazy",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "salty_dialogue defy",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "salty_dialogue defy static",
+			"anim": "defy",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "neo-salty"
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+Format:
+n  => name
+x  => x pos
+y  => y pos
+w  => width
+h  => height
+pX => x pos of the pivot point
+pY => y pos of the pivot point
+oX => x-corner offset
+oY => y-corner offset
+oW => original width
+oH => original height
+r => 'y' if sprite is rotated-->
+<TextureAtlas imagePath="menu_options.png" width="2924" height="1802" scale="1" format="RGBA8888">
+  <SubTexture name="options basic0000" x="0" y="0" width="1462" height="457" pX="0.5" pY="0.5"/>
+  <SubTexture name="options basic0001" x="1462" y="0" width="1462" height="456" pX="0.5" pY="0.5"/>
+  <SubTexture name="options basic0002" x="1462" y="456" width="1458" height="459" pX="0.5" pY="0.5"/>
+  <SubTexture name="options basic0003" x="0" y="457" width="1458" height="440" pX="0.5" pY="0.5"/>
+  <SubTexture name="options basic0004" x="0" y="897" width="1456" height="455" pX="0.5" pY="0.5"/>
+  <SubTexture name="options basic0005" x="1456" y="915" width="1451" height="450" pX="0.5" pY="0.5"/>
+  <SubTexture name="options white0000" x="0" y="1352" width="1451" height="450" pX="0.5" pY="0.5"/>
+</TextureAtlas>

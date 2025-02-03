@@ -1,12 +1,35 @@
 package options;
 
-import states.MainMenuState;
-import backend.StageData;
-import openfl.Lib;
+#if desktop
+import Discord.DiscordClient;
+#end
+import flash.text.TextField;
+import flixel.FlxG;
+import flixel.FlxSprite;
+import flixel.addons.display.FlxGridOverlay;
+import flixel.group.FlxGroup.FlxTypedGroup;
+import flixel.math.FlxMath;
+import flixel.text.FlxText;
+import flixel.util.FlxColor;
+import lime.utils.Assets;
+import flixel.FlxSubState;
+import flash.text.TextField;
+import flixel.FlxG;
+import flixel.FlxSprite;
+import flixel.util.FlxSave;
+import haxe.Json;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
+import flixel.util.FlxTimer;
+import flixel.input.keyboard.FlxKey;
+import flixel.graphics.FlxGraphic;
+import Controls;
+
+using StringTools;
 
 class OptionsState extends MusicBeatState
 {
-	var options:Array<String> = ['Note Colors', 'Controls', 'Adjust Delay and Combo', 'Graphics', 'Visuals and UI', 'Gameplay'];
+	var options:Array<String> = ['Language', 'Colors', 'Keybinds', 'Delay and Combo', 'Graphics', 'Visuals and UI', 'Gameplay'];
 	private var grpOptions:FlxTypedGroup<Alphabet>;
 	private static var curSelected:Int = 0;
 	public static var menuBG:FlxSprite;
@@ -14,9 +37,11 @@ class OptionsState extends MusicBeatState
 
 	function openSelectedSubstate(label:String) {
 		switch(label) {
-			case 'Note Colors':
+			case 'Language':
+				openSubState(new options.LanguageSubState());
+			case 'Colors':
 				openSubState(new options.NotesSubState());
-			case 'Controls':
+			case 'Keybinds':
 				openSubState(new options.ControlsSubState());
 			case 'Graphics':
 				openSubState(new options.GraphicsSettingsSubState());
@@ -24,8 +49,8 @@ class OptionsState extends MusicBeatState
 				openSubState(new options.VisualsUISubState());
 			case 'Gameplay':
 				openSubState(new options.GameplaySettingsSubState());
-			case 'Adjust Delay and Combo':
-				MusicBeatState.switchState(new options.NoteOffsetState());
+			case 'Delay and Combo':
+				LoadingState.loadAndSwitchState(new options.NoteOffsetState());
 		}
 	}
 
@@ -33,18 +58,16 @@ class OptionsState extends MusicBeatState
 	var selectorRight:Alphabet;
 
 	override function create() {
-		Lib.application.window.title = "FNF':Meteoric Engine - Options Menu";
-
 		#if desktop
 		DiscordClient.changePresence("Options Menu", null);
 		#end
 
 		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
-		bg.antialiasing = ClientPrefs.data.antialiasing;
 		bg.color = 0xFFea71fd;
 		bg.updateHitbox();
 
 		bg.screenCenter();
+		bg.antialiasing = ClientPrefs.globalAntialiasing;
 		add(bg);
 
 		grpOptions = new FlxTypedGroup<Alphabet>();
@@ -93,8 +116,11 @@ class OptionsState extends MusicBeatState
 				FlxG.sound.music.volume = 0;
 			}
 			else MusicBeatState.switchState(new MainMenuState());
+			}
+
+		if (controls.ACCEPT) {
+			openSelectedSubstate(options[curSelected]);
 		}
-		else if (controls.ACCEPT) openSelectedSubstate(options[curSelected]);
 	}
 	
 	function changeSelection(change:Int = 0) {
@@ -120,11 +146,5 @@ class OptionsState extends MusicBeatState
 			}
 		}
 		FlxG.sound.play(Paths.sound('scrollMenu'));
-	}
-
-	override function destroy()
-	{
-		ClientPrefs.loadPrefs();
-		super.destroy();
 	}
 }

@@ -1,0 +1,155 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				220,
+				360
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceLeft-alt",
+			"indices": [],
+			"name": "Ijzomi applaud"
+		},
+		{
+			"offsets": [
+				220,
+				360
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceRight-alt",
+			"indices": [],
+			"name": "Ijzomi applaud"
+		},
+		{
+			"offsets": [
+				220,
+				360
+			],
+			"loop": false,
+			"fps": 28,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Ijzomi left"
+		},
+		{
+			"offsets": [
+				220,
+				360
+			],
+			"loop": false,
+			"fps": 28,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Ijzomi right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				220,
+				361
+			],
+			"anim": "singUP",
+			"fps": 28,
+			"name": "Ijzomi up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				220,
+				359
+			],
+			"anim": "singDOWN",
+			"fps": 30,
+			"name": "Ijzomi down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				220,
+				361
+			],
+			"anim": "cheer",
+			"fps": 26,
+			"name": "Ijzomi cheer",
+			"indices": []
+		},
+		{
+			"offsets": [
+				220,
+				361
+			],
+			"loop": false,
+			"fps": 26,
+			"anim": "hey",
+			"indices": [],
+			"name": "Ijzomi cheer"
+		},
+		{
+			"offsets": [
+				220,
+				361
+			],
+			"loop": false,
+			"fps": 20,
+			"anim": "danceRight",
+			"indices": [
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				1
+			],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				220,
+				361
+			],
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			],
+			"fps": 22,
+			"anim": "danceLeft",
+			"loop": false,
+			"name": "idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Ijzomi",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "Ijzomi",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		0,
+		255
+	],
+	"camera_position": [
+		0,
+		-80
+	],
+	"sing_duration": 4.00000000000001,
+	"scale": 0.6
+}

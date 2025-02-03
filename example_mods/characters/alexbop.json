@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				358,
+				171
+			],
+			"loop": false,
+			"fps": 30,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				360,
+				165
+			],
+			"loop": false,
+			"fps": 31,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				357,
+				168
+			],
+			"loop": false,
+			"fps": 30,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				360,
+				170
+			],
+			"anim": "idle",
+			"fps": 28,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				370,
+				170
+			],
+			"loop": false,
+			"fps": 30,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				360,
+				160
+			],
+			"loop": false,
+			"fps": 31,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "AU"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				360,
+				160
+			],
+			"anim": "singDOWN-ALT",
+			"fps": 31,
+			"name": "AD",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				360,
+				130
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 31,
+			"name": "AR",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				360,
+				130
+			],
+			"anim": "singLEFT-alt",
+			"fps": 31,
+			"name": "AL",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/alexbop",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "alexbop",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		21,
+		255
+	],
+	"camera_position": [
+		-110,
+		160
+	],
+	"sing_duration": 4.00000000000001,
+	"scale": 0.6
+}

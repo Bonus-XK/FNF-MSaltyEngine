@@ -1,0 +1,111 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				263,
+				149
+			],
+			"loop": false,
+			"fps": 28,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				273,
+				153
+			],
+			"loop": false,
+			"fps": 28,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				296,
+				158
+			],
+			"loop": false,
+			"fps": 28,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				303,
+				146
+			],
+			"loop": false,
+			"fps": 28,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				277,
+				155
+			],
+			"loop": false,
+			"fps": 21,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				299,
+				131
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "gun",
+			"loop": false,
+			"name": "gun"
+		},
+		{
+			"offsets": [
+				278,
+				154
+			],
+			"indices": [],
+			"fps": 23,
+			"anim": "Reload",
+			"loop": false,
+			"name": "Reload"
+		},
+		{
+			"offsets": [
+				287,
+				154
+			],
+			"indices": [],
+			"fps": 20,
+			"anim": "dodge",
+			"loop": false,
+			"name": "dodge"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Conner",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "neo-conner",
+	"flip_x": true,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		-130,
+		20
+	],
+	"sing_duration": 4.00000000000001,
+	"scale": 0.6
+}

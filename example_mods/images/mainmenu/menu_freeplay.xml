@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+Format:
+n  => name
+x  => x pos
+y  => y pos
+w  => width
+h  => height
+pX => x pos of the pivot point
+pY => y pos of the pivot point
+oX => x-corner offset
+oY => y-corner offset
+oW => original width
+oH => original height
+r => 'y' if sprite is rotated-->
+<TextureAtlas imagePath="menu_freeplay.png" width="3240" height="2294" scale="1" format="RGBA8888">
+  <SubTexture name="freeplay basic0000" x="0" y="0" width="1620" height="575" pX="0.5" pY="0.5"/>
+  <SubTexture name="freeplay basic0001" x="1620" y="0" width="1620" height="575" pX="0.5" pY="0.5"/>
+  <SubTexture name="freeplay basic0002" x="0" y="575" width="1620" height="575" pX="0.5" pY="0.5"/>
+  <SubTexture name="freeplay basic0003" x="1620" y="575" width="1620" height="575" pX="0.5" pY="0.5"/>
+  <SubTexture name="freeplay basic0004" x="0" y="1150" width="1620" height="575" pX="0.5" pY="0.5"/>
+  <SubTexture name="freeplay basic0005" x="1620" y="1150" width="1620" height="575" pX="0.5" pY="0.5"/>
+  <SubTexture name="freeplay white0000" x="0" y="1725" width="1614" height="569" pX="0.5" pY="0.5"/>
+</TextureAtlas>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Ijzomi.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Ijzomi applaud0000" x="0" y="0" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi applaud0001" x="0" y="0" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi applaud0002" x="1080" y="0" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi applaud0003" x="1080" y="0" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi applaud0004" x="2160" y="0" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi applaud0005" x="2160" y="0" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi cheer0000" x="3240" y="0" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi cheer0001" x="3240" y="0" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi cheer0002" x="4320" y="0" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi cheer0003" x="4320" y="0" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi cheer0004" x="5400" y="0" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi cheer0005" x="5400" y="0" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi down0000" x="6480" y="0" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi down0001" x="6480" y="0" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi down0002" x="0" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi down0003" x="0" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi down0004" x="1080" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi down0005" x="1080" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi left0000" x="2160" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi left0001" x="2160" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi left0002" x="3240" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi left0003" x="3240" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi left0004" x="4320" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi left0005" x="4320" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi right0000" x="5400" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi right0001" x="5400" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi right0002" x="6480" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi right0003" x="6480" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi right0004" x="0" y="2700" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi right0005" x="0" y="2700" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi up0000" x="1080" y="2700" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi up0001" x="1080" y="2700" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi up0002" x="2160" y="2700" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi up0003" x="2160" y="2700" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi up0004" x="3240" y="2700" width="1080" height="1350"/>
+	<SubTexture name="Ijzomi up0005" x="3240" y="2700" width="1080" height="1350"/>
+	<SubTexture name="idle0000" x="4320" y="2700" width="1080" height="1350"/>
+	<SubTexture name="idle0001" x="4320" y="2700" width="1080" height="1350"/>
+	<SubTexture name="idle0002" x="5400" y="2700" width="1080" height="1350"/>
+	<SubTexture name="idle0003" x="5400" y="2700" width="1080" height="1350"/>
+	<SubTexture name="idle0004" x="6480" y="2700" width="1080" height="1350"/>
+	<SubTexture name="idle0005" x="6480" y="2700" width="1080" height="1350"/>
+	<SubTexture name="idle0006" x="0" y="4050" width="1080" height="1350"/>
+	<SubTexture name="idle0007" x="0" y="4050" width="1080" height="1350"/>
+	<SubTexture name="idle0008" x="1080" y="4050" width="1080" height="1350"/>
+	<SubTexture name="idle0009" x="1080" y="4050" width="1080" height="1350"/>
+	<SubTexture name="idle0010" x="2160" y="4050" width="1080" height="1350"/>
+	<SubTexture name="idle0011" x="2160" y="4050" width="1080" height="1350"/>
+	<SubTexture name="idle0012" x="3240" y="4050" width="1080" height="1350"/>
+	<SubTexture name="idle0013" x="3240" y="4050" width="1080" height="1350"/>
+	<SubTexture name="idle0014" x="4320" y="4050" width="1080" height="1350"/>
+	<SubTexture name="idle0015" x="4320" y="4050" width="1080" height="1350"/>
+</TextureAtlas>

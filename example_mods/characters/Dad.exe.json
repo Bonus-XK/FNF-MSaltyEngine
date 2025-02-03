@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				310,
+				260
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Dad left"
+		},
+		{
+			"offsets": [
+				310,
+				260
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Dad right"
+		},
+		{
+			"offsets": [
+				310,
+				260
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Dad up"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				310,
+				260
+			],
+			"anim": "idle",
+			"fps": 25,
+			"name": "Dad idle dance",
+			"indices": []
+		},
+		{
+			"offsets": [
+				310,
+				260
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Dad down"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Dad.exe",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "neo-Dad.exe",
+	"flip_x": false,
+	"healthbar_colors": [
+		141,
+		161,
+		181
+	],
+	"camera_position": [
+		-170,
+		-80
+	],
+	"sing_duration": 4.00000000000001,
+	"scale": 0.7
+}

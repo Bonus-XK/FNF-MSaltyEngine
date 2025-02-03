@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Dad.exe.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Dad down0000" x="0" y="0" width="1080" height="1350"/>
+	<SubTexture name="Dad down0001" x="0" y="0" width="1080" height="1350"/>
+	<SubTexture name="Dad down0002" x="1080" y="0" width="1080" height="1350"/>
+	<SubTexture name="Dad down0003" x="1080" y="0" width="1080" height="1350"/>
+	<SubTexture name="Dad down0004" x="2160" y="0" width="1080" height="1350"/>
+	<SubTexture name="Dad down0005" x="2160" y="0" width="1080" height="1350"/>
+	<SubTexture name="Dad down0006" x="3240" y="0" width="1080" height="1350"/>
+	<SubTexture name="Dad down0007" x="3240" y="0" width="1080" height="1350"/>
+	<SubTexture name="Dad down0008" x="3240" y="0" width="1080" height="1350"/>
+	<SubTexture name="Dad down0009" x="3240" y="0" width="1080" height="1350"/>
+	<SubTexture name="Dad idle dance0000" x="4320" y="0" width="1080" height="1350"/>
+	<SubTexture name="Dad idle dance0001" x="4320" y="0" width="1080" height="1350"/>
+	<SubTexture name="Dad idle dance0002" x="4320" y="0" width="1080" height="1350"/>
+	<SubTexture name="Dad idle dance0003" x="5400" y="0" width="1080" height="1350"/>
+	<SubTexture name="Dad idle dance0004" x="5400" y="0" width="1080" height="1350"/>
+	<SubTexture name="Dad idle dance0005" x="6480" y="0" width="1080" height="1350"/>
+	<SubTexture name="Dad idle dance0006" x="6480" y="0" width="1080" height="1350"/>
+	<SubTexture name="Dad idle dance0007" x="0" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Dad idle dance0008" x="0" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Dad idle dance0009" x="0" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Dad idle dance0010" x="1080" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Dad idle dance0011" x="1080" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Dad idle dance0012" x="4320" y="0" width="1080" height="1350"/>
+	<SubTexture name="Dad idle dance0013" x="4320" y="0" width="1080" height="1350"/>
+	<SubTexture name="Dad left0000" x="2160" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Dad left0001" x="2160" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Dad left0002" x="3240" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Dad left0003" x="3240" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Dad left0004" x="4320" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Dad left0005" x="4320" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Dad left0006" x="5400" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Dad left0007" x="5400" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Dad left0008" x="5400" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Dad left0009" x="5400" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Dad right0000" x="6480" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Dad right0001" x="6480" y="1350" width="1080" height="1350"/>
+	<SubTexture name="Dad right0002" x="0" y="2700" width="1080" height="1350"/>
+	<SubTexture name="Dad right0003" x="1080" y="2700" width="1080" height="1350"/>
+	<SubTexture name="Dad right0004" x="2160" y="2700" width="1080" height="1350"/>
+	<SubTexture name="Dad right0005" x="3240" y="2700" width="1080" height="1350"/>
+	<SubTexture name="Dad right0006" x="4320" y="2700" width="1080" height="1350"/>
+	<SubTexture name="Dad right0007" x="5400" y="2700" width="1080" height="1350"/>
+	<SubTexture name="Dad right0008" x="6480" y="2700" width="1080" height="1350"/>
+	<SubTexture name="Dad right0009" x="0" y="4050" width="1080" height="1350"/>
+	<SubTexture name="Dad right0010" x="0" y="4050" width="1080" height="1350"/>
+	<SubTexture name="Dad right0011" x="0" y="4050" width="1080" height="1350"/>
+	<SubTexture name="Dad right0012" x="0" y="4050" width="1080" height="1350"/>
+	<SubTexture name="Dad right0013" x="0" y="4050" width="1080" height="1350"/>
+	<SubTexture name="Dad right0014" x="0" y="4050" width="1080" height="1350"/>
+	<SubTexture name="Dad right0015" x="0" y="4050" width="1080" height="1350"/>
+	<SubTexture name="Dad right0016" x="0" y="4050" width="1080" height="1350"/>
+	<SubTexture name="Dad up0000" x="1080" y="4050" width="1080" height="1350"/>
+	<SubTexture name="Dad up0001" x="1080" y="4050" width="1080" height="1350"/>
+	<SubTexture name="Dad up0002" x="2160" y="4050" width="1080" height="1350"/>
+	<SubTexture name="Dad up0003" x="2160" y="4050" width="1080" height="1350"/>
+	<SubTexture name="Dad up0004" x="3240" y="4050" width="1080" height="1350"/>
+	<SubTexture name="Dad up0005" x="3240" y="4050" width="1080" height="1350"/>
+	<SubTexture name="Dad up0006" x="4320" y="4050" width="1080" height="1350"/>
+	<SubTexture name="Dad up0007" x="4320" y="4050" width="1080" height="1350"/>
+	<SubTexture name="Dad up0008" x="4320" y="4050" width="1080" height="1350"/>
+	<SubTexture name="Dad up0009" x="4320" y="4050" width="1080" height="1350"/>
+</TextureAtlas>

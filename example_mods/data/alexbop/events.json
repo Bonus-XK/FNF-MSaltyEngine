@@ -1,0 +1,31 @@
+{
+	"song": {
+		"events": [
+			[
+				9153.84615384615,
+				[
+					[
+						"startcountdown",
+						"",
+						""
+					]
+				]
+			],
+			[
+				77333.3333333333,
+				[
+					[
+						"Flash",
+						"FFFFFF",
+						"0.7"
+					],
+					[
+						"Change Character",
+						"dad",
+						"alexhuman"
+					]
+				]
+			]
+		]
+	}
+}
