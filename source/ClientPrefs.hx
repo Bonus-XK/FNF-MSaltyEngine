@@ -134,6 +134,7 @@ class ClientPrefs {
 		FlxG.save.data.pauseMusic = pauseMusic;
 		//FlxG.save.data.checkForUpdates = checkForUpdates;
 		FlxG.save.data.comboStacking = comboStacking;
+		FlxG.save.data.changeLanguages = changeLanguages;
 	
 		FlxG.save.flush();
 
@@ -270,6 +271,8 @@ class ClientPrefs {
 		//}
 		if (FlxG.save.data.comboStacking != null)
 			comboStacking = FlxG.save.data.comboStacking;
+		if (FlxG.save.data.ChangeLanguages != null)
+			changeLanguages = FlxG.save.data.changeLanguages;
 
 		var save:FlxSave = new FlxSave();
 		save.bind('controls_v2', 'ninjamuffin99');

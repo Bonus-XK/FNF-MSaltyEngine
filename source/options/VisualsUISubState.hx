@@ -134,15 +134,7 @@ class VisualsUISubState extends BaseOptionsMenu
 			'bool',
 			true);
 		addOption(option);
-
-		var option:Option = new Option('Change Languages',
-			'更改语言(未完成)',
-			'ChangeLanguages',
-			'string',
-			'Chinese',
-			["English","Chinese"]);
-		addOption(option);
-
+		
 		super();
 	}
 
