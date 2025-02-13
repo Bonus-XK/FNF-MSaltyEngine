@@ -61,7 +61,7 @@ jobs:
       - name: 为你的迪克装载所需的精华(dddd)
         run: |
           haxelib install hmm --quiet
-          haxelib run hmm setup --quiet
+          haxelib run hmm install --quiet
 
       - name: 最后一步，将精华液体射入到阴户里(compile and build game)
         run: |
