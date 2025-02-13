@@ -1,0 +1,76 @@
+#孩子们太无聊了，决定再抽象一次💀
+name: Base-Build
+
+on: 
+  workflow_call:
+    inputs:
+      name:
+        required: true
+        type: string
+      run-os:
+        required: true
+        type: string
+      cache-key:
+        required: true
+        type: string
+      cache-path:
+        required: false
+        type: string
+      upload-key:
+        required: true
+        type: string
+      upload-path:
+        required: true
+        type: string
+      build-os:
+        required: true
+        type: string
+
+env:
+  build-name: 我不知道
+
+jobs:
+  YuanShenQiDong:
+    name: 原神启动
+    runs-on: ${{inputs.runOS}}
+    steps:
+      - name: 把你的精华的液体输入到这里(checkout)
+        uses: actions/checkout@main
+
+      - name: 安装人工子宫方便搞事(setup haxe)
+        uses: krdlab/setup-haxe@v1
+        with:
+          haxe-version: 4.2.5
+
+      - name: 安装人工输精液(setup hxLibrary path)
+        run: |
+          mkdir .haxelib
+          cd .haxelib
+
+      - name: 传宗接代，子子孙孙无穷无尽也(cache)
+        uses: actions/cache@v3
+        with:
+          key: do you like what you see? ${{inputs.cache-key}}
+          path: |
+            .haxelib/
+            export/release/${{inputs.build-os}}/haxe/
+             export/release/${{inputs.build-os}}/obj/
+          restore-keys: |
+            do you like what you see? ${{inputs.cache-key}}
+
+      - name: 为你的迪克装载所需的精华(dddd)
+        run: |
+          haxelib install hmm --quiet
+          haxelib run hmm setup --quiet
+
+      - name: 最后一步，将精华液体射入到阴户里(compile and build game)
+        run: |
+          haxelib run lime build ${{inputs.build-os}}
+
+      - name: 最最后一步，你们都知道(upload)
+        uses: actions/upload-artifact@main
+        with:
+          name: ${{env.build-game}}-${{ inputs.upload-key }}
+          path: ${{ inputs.upload-path }}
+          if-no-files-found: error
+          
