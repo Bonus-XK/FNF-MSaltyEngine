@@ -1,0 +1,14 @@
+name: build-windows
+
+on: workflow_dispatch
+
+jobs:
+  YuanShenQiDong:
+    uses: ./.github/workflows/base-build.yml
+    with:
+      name: Windows
+      run-os: windows-2019
+      cache-key: windows
+      upload-key: windows
+      upload-path: export\release\windows\bin\*
+      build-os: windows
